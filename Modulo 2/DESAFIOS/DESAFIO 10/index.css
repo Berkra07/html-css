@@ -1,0 +1,134 @@
+@charset "UTF 8";
+@font-face {
+    font-family:'bebas';
+    src: url(fontes/BebasNeue-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+body{
+    background-color: #041626;
+    min-width: 4OOpx;
+    min-height: 800px;
+    margin-bottom: 0cm;
+}
+
+a{
+    text-decoration: none;
+    color: #0CF2F2;
+}
+
+header{
+    font-family: 'bebas';
+    color:aliceblue;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 0px black;
+    background-image: linear-gradient(to top,#041626,#1032508c,#345c8036);
+}
+header > h1{
+    text-shadow: 2px 2px 0px black;
+}
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+nav{
+    background-color:#041626;
+}
+
+.navlink{
+    color: rgb(243, 241, 237);
+    line-height:1cm;
+    margin:5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+article{
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 1.5em;
+    background-color:#075F73;
+    box-shadow: 2px 4px 5px 3px rgba(46, 45, 45, 0.438);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-indent: 15px;
+    color: #ffffff;
+    padding: 5px;
+}
+#tema{
+    font-family: 'idroid';
+    font-size: 30px;
+    text-indent: 20px;
+    color: #0CF2F2;
+ }
+
+ h2{
+    font-family: 'idroid';
+    background-image: linear-gradient(to right,#075F73 30%,#0A96A6 40%,#075F73 100%);
+    color: #0CF2F2;
+ }
+ img{
+    display: block;
+    margin: auto;
+ }
+
+ .video{
+    position: relative;
+    background-color:#0A96A6;
+    border-radius: 3%;
+    height: 0px;
+    margin-left:-20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+    
+ }
+ .video > iframe{
+    position: absolute;
+    top: 5%;
+    left:5%;
+    width: 90%;
+    height: 90%;
+
+ }
+
+ aside{
+    background-color: #0A96A6;
+    margin: 4px;
+    border-radius: 10px;
+    padding-bottom: 1px;
+ }
+ aside > h3{
+    background-color: #196779;
+    color: #0CF2F2;
+    border-radius: 10px 10px 0px 0px;
+ }
+ ul{
+    list-style-type:'\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+    color: white;
+    text-decoration: underline;
+ }
+
+ footer{
+    background-color: #041626;
+    margin-top: 0px;
+    margin-bottom:0px;
+ }
+
+ #rodape{
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 0cm;
+ }
