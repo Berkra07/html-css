@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+background-color: whitesmoke;
+}
+
+h1{
+color: orange;    
+font-family: 'Courier New', Courier, monospace;
+}
+
+#cu{
+    background-color: rgb(255, 0165,0);
+    text-align: center;
+    color: blueviolet;
+}
+
+h2 {
+color: orange;
+background-color: blueviolet;
+}
+
+p{
+color: blueviolet;
+background-color: aliceblue;
+text-align: center;
+}

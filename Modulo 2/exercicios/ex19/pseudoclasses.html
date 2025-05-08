@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoclasses</title>
+  <style>
+    body{
+      font-family: 'Courier New', Courier, monospace;
+      background-color: black;
+    }
+    div{
+      background-color: rgb(209, 14, 14);
+      text-align: center;
+      border: 1px solid black;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;}
+    div > p {
+      display:none;
+    }
+      #bdiv:hover {
+      background-color: aqua;
+    }
+    div:hover > p {
+      display: block;
+      color: black;
+      font-size: 40px;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+    <div id="a">
+    <p>EU TE AMO LINDA DA MINHA
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+h1{
+    color: #262523;
+    text-align: center;
+    height: 100px;
+    font-size: 60px;
+}
+
+h2{
+    color: #262523;
+    text-align:left;
+    text-align: justify;
+    font-size: 0.80cm;
+}
+
+p{
+    text-align:left;
+    color: #262523;
+    font-size: 0.5cm;
+    width: 28cm;
+    height: 2cm;
+}
