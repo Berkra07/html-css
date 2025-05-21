@@ -59,18 +59,14 @@ section > p{
 .imagem{
     background-color: rgb(63, 63, 63);
     color: white;
-    box-shadow: inset 6px 6px 14px 0px rgba(0, 0, 0, 0.548);
-    background-size:cover;
-    background-attachment: fixed;
 }
-
 
 .imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(48, 47, 47, 0.445);
-    text-shadow: 2px 1px 0px black;
+    background-color: rgb(48, 47, 47);
 }
+<<<<<<< HEAD
     
 
 #img01{
@@ -83,6 +79,8 @@ section > p{
    background-image: url(imagens/background002.jpg); 
 }
 
+=======
+>>>>>>> parent of 470466d (configuração de img)
 a:hover{
     text-decoration: underline;
 }
