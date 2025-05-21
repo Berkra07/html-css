@@ -28,14 +28,28 @@ a{
     text-decoration: none;  
     font-weight: bolder;
 }
-
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 35px;
+}
 a:hover{
     text-decoration: underline;
 }
 
-.normal{
+.Normal{
     background-color: white;
     color: black;
+}
+.imagem{
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+
+.imagem > p{
+    width:  400px;
+    background-color: rgb(48, 47, 47);
 }
 
 footer{
