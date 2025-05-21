@@ -59,13 +59,29 @@ section > p{
 .imagem{
     background-color: rgb(63, 63, 63);
     color: white;
+    box-shadow: inset 6px 6px 14px 0px rgba(0, 0, 0, 0.548);
+    background-size:cover;
+    background-attachment: fixed;
 }
+
 
 .imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgb(48, 47, 47);
+    background-color: rgba(48, 47, 47, 0.445);
+    text-shadow: 2px 1px 0px black;
 }
+    
+
+#img01{
+   background-image: url(imagens/background001.jpg);
+    
+}
+
+#img02{
+   background-image: url(imagens/background002.jpg); 
+}
+
 a:hover{
     text-decoration: underline;
 }
