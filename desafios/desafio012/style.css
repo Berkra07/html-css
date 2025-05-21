@@ -47,8 +47,9 @@ section{
     font-family: var(--fonte3);
     font-size: 3.5vw;
 }
-a:hover{
-    text-decoration: underline;
+
+section > p{
+    padding-bottom: 2em;
 }
 
 .Normal{
@@ -65,7 +66,9 @@ a:hover{
     padding: 5px;
     background-color: rgb(48, 47, 47);
 }
-
+a:hover{
+    text-decoration: underline;
+}
 footer{
     background-color: black;
     color: white;
