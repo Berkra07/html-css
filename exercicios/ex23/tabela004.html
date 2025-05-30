@@ -9,7 +9,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
-            width: 400px;
+            width: 1000px;
             border-collapse: collapse;
         }
         th{
@@ -33,73 +33,79 @@
         col.cmedia{
             background-color: orangered;
         }
+        div#container{
+            overflow-x: scroll;
+
+        }
     </style>            
 </head>
 <body>
     <h1>tabela</h1>
-    <Table>
-        <colgroup>
-            <col class="carea">
-            <col class="cdisciplinas">
-            <col class="snotas">
-            <col class="cmedia">
-        </colgroup>
-            <tr>
-                <th scope="row" rowspan="2">Area</th>
-                <th scope="row" rowspan="2">Disciplinas</th>
-                <th scope="rowgroup" colspan="2">Notas</th>
-                <th scope="row" rowspan="2" style="width: 70px;">Média</th>
-            </tr>
-            <tr>
-                <th scope="row" style="width: 90px;">Nota 1</th>
-                <th scope="row" style="width: 90px;">Nota 2</th>
-            </tr>
-            <tr>
-                <td scope="colgroup" rowspan="4" class="Areas">Exatas</td>
-                <td class="Disciplinas">Matematica</td>
-                <td>9.0</td>
-                <td>7.6</td>
-                <td>8.3</td>
-            </tr>
-            <tr>
-                <td class="Disciplinas">Fisica</td>
-                <td>8.7</td>
-                <td>6.4</td>
-                <td>7.6</td>
-            </tr>
-            <tr>
-                <td class="Disciplinas">Astrologia</td>
-                <td>8.9</td>
-                <td>10.0</td>
-                <td>9.5</td>
-            </tr>
-            <tr>
-                <td class="Disciplinas">Quimica</td>
-                <td>6.7</td>
-                <td>3.7</td>
-                <td>5.2</td>
-            </tr>
-            <tr>
-                <th scope="col" colspan="4">Media de Exatas</th>
-                <td class="Mediaarea">7.7</td>
-            </tr>
-            <tr>
-                <td scope="colgroup" rowspan="2" class="Areas">Humanas</td>
-                <td class="Disciplinas">Historia</td>
-                <td>10.0</td>
-                <td>9.8</td>
-                <td>9.9</td>
-            </tr>
-            <tr>
-                <td class="Disciplinas">Geografia</td>
-                <td>4.4</td>
-                <td>7.7</td>
-                <td>6.1</td>
-            </tr>
-            <tr>
-                <th scope="col" colspan="4">Media Humanas</th>
-                <td class="Mediaarea">8.0</td>
-            </tr>
-    </Table>
+    <div id="container">
+        <Table>
+            <colgroup>
+                <col class="carea">
+                <col class="cdisciplinas">
+                <col class="snotas">
+                <col class="cmedia">
+            </colgroup>
+                <tr>
+                    <th scope="row" rowspan="2">Area</th>
+                    <th scope="row" rowspan="2">Disciplinas</th>
+                    <th scope="rowgroup" colspan="2">Notas</th>
+                    <th scope="row" rowspan="2" style="width: 70px;">Média</th>
+                </tr>
+                <tr>
+                    <th scope="row" style="width: 90px;">Nota 1</th>
+                    <th scope="row" style="width: 90px;">Nota 2</th>
+                </tr>
+                <tr>
+                    <td scope="colgroup" rowspan="4" class="Areas">Exatas</td>
+                    <td class="Disciplinas">Matematica</td>
+                    <td>9.0</td>
+                    <td>7.6</td>
+                    <td>8.3</td>
+                </tr>
+                <tr>
+                    <td class="Disciplinas">Fisica</td>
+                    <td>8.7</td>
+                    <td>6.4</td>
+                    <td>7.6</td>
+                </tr>
+                <tr>
+                    <td class="Disciplinas">Astrologia</td>
+                    <td>8.9</td>
+                    <td>10.0</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <td class="Disciplinas">Quimica</td>
+                    <td>6.7</td>
+                    <td>3.7</td>
+                    <td>5.2</td>
+                </tr>
+                <tr>
+                    <th scope="col" colspan="4">Media de Exatas</th>
+                    <td class="Mediaarea">7.7</td>
+                </tr>
+                <tr>
+                    <td scope="colgroup" rowspan="2" class="Areas">Humanas</td>
+                    <td class="Disciplinas">Historia</td>
+                    <td>10.0</td>
+                    <td>9.8</td>
+                    <td>9.9</td>
+                </tr>
+                <tr>
+                    <td class="Disciplinas">Geografia</td>
+                    <td>4.4</td>
+                    <td>7.7</td>
+                    <td>6.1</td>
+                </tr>
+                <tr>
+                    <th scope="col" colspan="4">Media Humanas</th>
+                    <td class="Mediaarea">8.0</td>
+                </tr>
+        </Table>
+    </div>
 </body>
 </html>
