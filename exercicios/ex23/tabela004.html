@@ -14,28 +14,36 @@
         }
         th{
             border: 1px solid black;
-            background-color: rgb(66, 64, 64);
-            color: white;
+            color: rgb(0, 0, 0);
         }
         td{
             border: 1px solid black;
             text-align: center;
             padding: 5px;
         }
-        .Areas{
-            background-color: gray;
+        col.carea{
+            background-color: blue;
         }
-        .Mediaarea{
-            background-color: rgba(32, 185, 32, 0.562);
+        col.cdisciplinas{
+            background-color: yellow;
         }
-        .Disciplinas{
-            background-color: rgba(32, 185, 32, 0.562);
+        col.snotas{
+            background-color: red;
+        }
+        col.cmedia{
+            background-color: orangered;
         }
     </style>            
 </head>
 <body>
     <h1>tabela</h1>
     <Table>
+        <colgroup>
+            <col class="carea">
+            <col class="cdisciplinas">
+            <col class="snotas">
+            <col class="cmedia">
+        </colgroup>
             <tr>
                 <th scope="row" rowspan="2">Area</th>
                 <th scope="row" rowspan="2">Disciplinas</th>
