@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo a tag - Input</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input {
+            display: block;
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 300px;
+        }
+    </style>
 </head>
 <body>
     <!--input street adress (completa com o endereço) -->
-    <input autocomplete="street-address""">
+    <input autocomplete="street-address">
+    <!--input email (completa com o email) -->
+    <input autocomplete="email">
+    <!--input username (completa com o nome de usuário) -->
+    <input autocomplete="username">
+    <!--input new password (completa com a nova senha) -->
+    <input autocomplete="new-password"> 
+    <!--readonly (apenas lêr)-->
+    <input readonly value="Este campo é somente leitura">
 </body>
 </html>
