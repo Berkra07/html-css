@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Aprendendo sobre Forms (formulario)</h1>
-    <form >
-        <label >
-            Rua
-            <input type="text" name="Rua" autocomplete="street-address" autofocus>
-        </label>
-        <label >
-            Nùmero
-            <input type="number" name="numero" autocomplete="address-line1" placeholder="Número da casa">
-        </label>
-        <button type="submit"> Enviar dados</button>
+
+    <!--
+    form method:
+    get - metodo usado normalmente
+    post- ele envia de modo sigilosa (como cartão de credito)
+    
+    
+    
+    -->
+    <form action="" method="get">
+      <label>
+        Rua
+        <input type="text" name="Rua" autocomplete="street-address" autofocus />
+      </label>
+      <label>
+        Nùmero
+        <input
+          type="number"
+          name="numero"
+          autocomplete="address-line1"
+          placeholder="Número da casa"
+        />
+      </label>
+      <button type="submit">Enviar dados</button>
     </form>
-</body>
+  </body>
 </html>
