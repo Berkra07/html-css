@@ -1,0 +1,17 @@
+@charset "UTF 8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    border: 1px;   
+}
+p{
+    font-size: 20px;
+    text-align: left;
+    text-decoration: solid black;
+    padding-left: 100px;
+    padding-top: 100px;
+}
