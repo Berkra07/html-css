@@ -15,9 +15,9 @@ h1{
     border: 1px;   
 }
 div{
-    background-color: aqua;
+    background-color: rgba(25, 59, 24, 0.363);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 5vh;
     text-align: left;
     text-decoration: solid black;
     padding: 20px;
