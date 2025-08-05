@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* box sizing */
+/* 📦 Propriedades do box-sizing
+1. content-box (Padrão)
+
+    O que faz: A largura e altura definidas se aplicam apenas ao conteúdo.
+
+    Resultado: Padding e border aumentam o tamanho total da caixa.
+
+    Exemplo: width: 200px + padding: 20px → largura total = 240px
+
+2. border-box
+
+    O que faz: A largura e altura incluem o conteúdo, o padding e a borda.
+
+    Resultado: O tamanho da caixa permanece fixo.
+
+    Exemplo: width: 200px inclui padding e border dentro desses 200px. */
+
+*{
+    box-sizing:border-box;
+}
+
+.box{
+    width: 40vh;
+    height: 40vh;
+    background-color: blueviolet;
+    border: 40px solid black;
+}
