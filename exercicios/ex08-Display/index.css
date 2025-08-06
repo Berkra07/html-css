@@ -30,3 +30,7 @@ Aceita width e height, como o block.
 Fica na mesma linha que outros elementos, mas você pode controlar o tamanho.
 
 📌 Útil quando você quer elementos lado a lado, mas ainda precisa controlar o tamanho deles. */
+
+body{
+    background-color: black;
+}
