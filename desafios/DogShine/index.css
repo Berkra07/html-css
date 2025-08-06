@@ -10,19 +10,24 @@ nav {
     margin: 44px 0 144px 76px;
 }
 .menu {
-    margin: 50px;
+    margin-right:50px;
     color: gray;
     text-decoration: none;
-    font-size: larger;
     font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
 }
 .login {
-    font-size: larger;
-    color: white;
-    width: 100px;
+    
+    width: 130px;
+    height: 41px;
     background-color: blueviolet;
-    border-color: blueviolet;
-    border-radius: 20px;
+    border-radius: 20.5px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffff;
 }
 img {
     height: 600px;
@@ -34,14 +39,23 @@ section {
     display: inline-block;
 }
 h1 {
-    font-weight:600 ;
+    font-weight:900;
     font-size: 100px;
     line-height: 122px;
     color: #515151;
 }
 h2 {
-    font-weight: ;
+    font-weight:700;
     font-size: 58px;
     line-height: 71px;
     color: #515151;
+    width: 800px;
+}
+p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #515151;
+    width: 700px;
+    
 }
