@@ -1,19 +1,20 @@
 @charset "UTF-8";
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+*{
+font-family: "Montserrat", sans-serif;
 }
-
 
 nav{   
     margin-left: 10%;
     margin-top: 3%;
 }
 .menu{
+
     margin: 50px;
     color:gray;
-    font-size: larger;
     text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
 }
 .login{
     font-size: larger;
