@@ -28,4 +28,21 @@ img{
      height: 80vh;
      width: 60vh;
      margin-left: 10%;
+     display:inline-block;
+}
+section{
+    display: inline-block;
+}
+h1{
+    fop
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+h2{
+    font-weight: 500;
+     font-size: 58px;
+     line-height: 71px;
+     color: #515151;
 }
