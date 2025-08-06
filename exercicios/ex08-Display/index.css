@@ -34,3 +34,8 @@ Fica na mesma linha que outros elementos, mas você pode controlar o tamanho.
 body{
     background-color: black;
 }
+.video{
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+}
