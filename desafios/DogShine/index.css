@@ -1,15 +1,13 @@
 
-
 * {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 nav {
-    margin-left: 10%;
-    margin-top: 3%;
+    margin: 44px 0 144px 76px;
 }
 .menu {
     margin: 50px;
@@ -27,8 +25,8 @@ nav {
     border-radius: 20px;
 }
 img {
-    height: 80vh;
-    width: 60vh;
+    height: 600px;
+    width: 500px;
     margin-left: 10%;
     display: inline-block;
 }
@@ -36,12 +34,13 @@ section {
     display: inline-block;
 }
 h1 {
+    font-weight:600 ;
     font-size: 100px;
     line-height: 122px;
     color: #515151;
 }
 h2 {
-    font-weight: 500;
+    font-weight: ;
     font-size: 58px;
     line-height: 71px;
     color: #515151;
