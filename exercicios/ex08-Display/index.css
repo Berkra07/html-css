@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* 🔹 display: block
+Ocupa toda a largura disponível (100% da largura do elemento pai por padrão).
+
+Sempre começa em uma nova linha.
+
+Pode ter largura (width) e altura (height) definidas.
+
+Exemplos: <div>, <section>, <p>.
+
+📌 Usado quando você quer que o elemento se comporte como um “bloco” separado no layout.
+
+🔹 display: inline
+Não quebra a linha, fica na mesma linha que outros elementos, se houver espaço.
+
+Não aceita propriedades de largura (width) e altura (height).
+
+Apenas ocupa o espaço necessário para seu conteúdo.
+
+Exemplos: <span>, <a>, <strong>.
+
+📌 Usado para elementos pequenos dentro de um texto, como palavras ou ícones.
+
+🔹 display: inline-block
+Não quebra a linha, como o inline, mas...
+
+Aceita width e height, como o block.
+
+Fica na mesma linha que outros elementos, mas você pode controlar o tamanho.
+
+📌 Útil quando você quer elementos lado a lado, mas ainda precisa controlar o tamanho deles. */
