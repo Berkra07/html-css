@@ -12,7 +12,7 @@ nav {
   color: #000;
   text-decoration: none;
   font-size: 24px;
-  margin-right: 50px;
+  margin-right: 90px;
   font-weight: 600;
 }
 
@@ -23,4 +23,17 @@ nav {
     border: none;
     background-color:rgba(91, 190, 56, 1) ;
     filter: drop-shadow(4px 4px 7px rgba(0, 0, 0, 0.486));
+}
+
+.champions-figure{
+  margin: 60px 30px 0px 100px;
+  height: 58vh;
+  border-radius: 140px;
+display: inline-block;
+}
+
+div{
+  display: inline-block;
+  margin: 75px;
+  width: 600px;
 }
