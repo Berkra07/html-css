@@ -9,20 +9,25 @@ nav {
 }
 
 .link-header {
-  color: #000;
+  color: #615d5d;
   text-decoration: none;
   font-size: 24px;
   margin-right: 90px;
   font-weight: 600;
+
 }
 
 .button{
     width: 130px;
     height: 50px;
-    border-radius: 5px 5px 5px 5px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px 10px 10px 10px;
     border: none;
+    cursor: pointer;
     background-color:rgba(91, 190, 56, 1) ;
-    filter: drop-shadow(4px 4px 7px rgba(0, 0, 0, 0.486));
+    color: white;
+    filter: drop-shadow(4px 4px 7px #0000007c);
 }
 
 .champions-figure{
@@ -36,4 +41,23 @@ div{
   display: inline-block;
   margin: 75px;
   width: 600px;
+}
+
+h1{
+  font-size: 100px;
+  font-weight: bolder;
+  color: rgba(12, 34, 68, 1);
+  margin-bottom: 50px ;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: 600;
+  color: #615d5d;
+}
+
+p{
+  font-size: 30px;
+  font-weight: 600;
+  color: #615d5d;
 }
