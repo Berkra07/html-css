@@ -1,14 +1,21 @@
-*{
-    font-family:"Instrument Sans", sans-serif;
+* {
+  font-family: "Instrument Sans", sans-serif;
+  display: inline-block;
 }
-nav{
-    margin-left: 100px;
-    margin-top: 50px;
+
+nav {
+  margin-left: 100px;
+  margin-top: 50px;
 }
+
 .link-header {
-    color: #000;
-    text-decoration: none;
-    font-size: 24px;
-    margin-right: 50px;
-    font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+.button{
+    
 }
