@@ -71,5 +71,8 @@ p{
   background-color: #5bbe38;
   height: 5vh;
   width: 15vh;
-
+/* border */
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
 }
