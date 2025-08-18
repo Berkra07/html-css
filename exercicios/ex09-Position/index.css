@@ -26,9 +26,15 @@
     height: 300px;
     width: 350px;
     background-color: rgb(206, 252, 0);
+    position: fixed;
 }
 .div-son{
     height: 150px;
     width: 150px;
     background-color: tomato;
+}
+.div-uncle{
+    height: 150px;
+    width: 150px;
+    background-color: red;
 }
