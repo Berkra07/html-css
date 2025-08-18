@@ -1,0 +1,15 @@
+    /* POSITON 
+
+    position: static (padrão) - Nãoo aceita valores de top, botom, tight e left.
+    position: fixed - fixa o elemento na tela
+    position: relative - posição reçativa a posição inicial dele
+    position: absolute - posiçapo absoluta(fixa) a algum elemnento ou pagina
+                        -SE não tiver pai / pai for static -> Posiciona refetente a pagina
+                        -SE o pai NÃo for static -> posiciona referente ao pai
+
+    propriedades: 
+            - top
+            - bottom
+            - left
+            - right
+             */
