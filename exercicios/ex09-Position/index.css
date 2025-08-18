@@ -23,12 +23,12 @@
 }
 
 .div-dad{
-    height: 350px;
+    height: 300px;
     width: 350px;
-    background-color: greenyellow;
+    background-color: rgb(206, 252, 0);
 }
 .div-son{
-    height: 70px;
-    width: 70px;
+    height: 150px;
+    width: 150px;
     background-color: tomato;
 }
