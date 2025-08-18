@@ -2,6 +2,7 @@
 
     position: static (padrão) - Nãoo aceita valores de top, botom, tight e left.
     position: fixed - fixa o elemento na tela
+    position: sticky - age como um adesivo, fixa o elemento só onde eu determinar
     position: relative - posição reçativa a posição inicial dele
     position: absolute - posiçapo absoluta(fixa) a algum elemnento ou pagina
                         -SE não tiver pai / pai for static -> Posiciona refetente a pagina
