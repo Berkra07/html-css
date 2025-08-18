@@ -13,3 +13,22 @@
             - left
             - right
              */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh;
+    width: 200vw;
+}
+
+.div-dad{
+    height: 350px;
+    width: 350px;
+    background-color: greenyellow;
+}
+.div-son{
+    height: 70px;
+    width: 70px;
+    background-color: tomato;
+}
